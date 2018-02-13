@@ -333,11 +333,6 @@ body {
   }
 }
 
-/*
-#Sample-tour{
-	background-color: rgba(0,0,0,0.7);
-} */
-
 #Sample-tour h3 {
   font-size: 30px;
 }
@@ -658,7 +653,7 @@ body {
 }
 
 #Sample-features {
-  background: #fafafa;
+	background-color: rgba(0,0,0,0.7);
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
@@ -681,10 +676,12 @@ body {
 #Sample-features .Sample-service .Sample-desc {
   width: 80%;
   float: right;
+  color: #A4A4A4;
 }
 #Sample-features .Sample-service .Sample-desc h3 {
   margin-top: 0;
   font-size: 18px;
+  color: white;
 }
 
 .first-section {
